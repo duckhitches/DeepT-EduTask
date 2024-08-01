@@ -309,7 +309,7 @@ nav .menu button,
   opacity: 0px;
 
 }
-
+/* sidebar */
 .sidebar-b {
   transition: transform 0.3s ease-in-out;
   position: absolute;
@@ -390,7 +390,7 @@ nav .menu button,
   padding: 22px;
   width: 27px;
 }
-
+/* asset-content */
 .asset-content {
   height: 324px;
   border-top: solid #D1CECE;
@@ -468,12 +468,12 @@ article {
   gap: 10px;
   margin: 20px 0;
 }
-
+/* thread */
 .thread {
   display: flex;
-  background: #FEFFC033;
-  align-items: center;
-  border: 0.1px solid #00000066;
+  background: #f0f0e933;
+  align-items:end
+  /* border: 0.1px solid #00000066; */
 }
 
 .thread-img {
@@ -507,10 +507,12 @@ article {
 }
 
 .sub-thread, .sub-interception {
-  width: 200px;
+  width: 220px;
   box-shadow: 1px 3px 8px 0px #00000040;
   border-radius: 20px;
   background: #0000000D;
+  justify-content:space-evenly;
+  
 }
 
 .sub-thread-text {
@@ -587,12 +589,12 @@ article {
   width: 100%;
   margin-top: 24px;
   height: 100px;
-  box-shadow: 1px 3px 8px 0px #00000040;
+  box-shadow: 0px 0px 0px 0px #00000040;
   border-radius: 20px;
   background: #0000000D;
 }
 
-/* media query */
+/* responsiveness, I tried */
 @media (min-width:1150px) {
   .main-content {
     grid-template-columns: 1fr 1fr;
